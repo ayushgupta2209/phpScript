@@ -1,4 +1,11 @@
 <?php
+/******************************************************************/
+/* phpScript                                                      */
+/******************************************************************/
+/*                                                                */
+/* This file ca be used to create an inverted word index for a    */
+/* database of english text                                       */
+/******************************************************************/
 $Connection = mysql_connect("localhost","root","");
 if (!$Connection)
   {die('Could not connect to Server: ' . mysql_error()); }
